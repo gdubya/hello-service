@@ -20,7 +20,7 @@ public class HelloServiceApplication {
 
 		@GetMapping("/hello/{name}")
 		public String hello(@PathVariable String name) {
-			return "Hello " + name);
+			return "Hello " + name;
 		}
 	}
 
